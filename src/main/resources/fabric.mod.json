@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nosigns",
+  "version": "1.0.0",
+  "name": "NoSigns",
+  "description": "Полностью отключает таблички в Minecraft.",
+  "authors": ["Custom Build"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.nosigns.NoSigns"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.21",
+    "fabric": "*"
+  }
+}
